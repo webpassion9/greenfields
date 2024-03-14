@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html class="is-page-default" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="no">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="apple-mobile-web-app-title" content="Site title">
+		<meta name="format-detection" content="telephone=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+		<link rel="manifest" href="images/favicon/manifest.json">
+		<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+		<title>Blog - Greenfields</title>
+		<link rel="stylesheet" href="css/app.min.css">
+	</head>
+	<body>
+		<div class="app">
+			<!-- Header :: Start-->
+			<header class="header">
+				<div class="container">
+					<div class="header__logo">
+						<a href="#">
+							<img src="images/logo.svg" alt="">
+						</a>
+					</div>
+					<a class="btn btn-menu"><span></span></a>
+				</div>
+				<div class="header__menu">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-xl-3 order-1">
+								<div class="header__menu-logo">
+									<a href="#">
+										<img src="images/logo_white.svg" alt="">
+									</a>
+								</div>
+							</div>
+							<div class="col-9 is-lg-hidden order-3 header__menu-search-mob">
+								<form class="header__search">
+									<input class="input-search" type="text" placeholder="Search">
+									<svg class="icon-search">
+										<use xlink:href="sprites/sprite.svg#icon-search"></use>
+									</svg>
+								</form>
+							</div>
+							<div class="col-9 col-lg-7 col-xl-5 order-4">
+								<div class="header__nav row">
+									<div class="col col-12 col-lg-6">
+										<ul class="header__nav-main">
+											<li>
+												<a href="#">Home<span class="figure-link">
+														<svg class="fill_pear-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 5" width="100%" height="5px" preserveAspectRatio="none">
+															<polygon points="0,0 100,0 0,5"></polygon>
+														</svg></span></a>
+											</li>
+											<li>
+												<a href="#">Product showcase<span class="figure-link">
+														<svg class="fill_pear-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 5" width="100%" height="5px" preserveAspectRatio="none">
+															<polygon points="0,0 100,0 0,5"></polygon>
+														</svg></span></a>
+											</li>
+											<li>
+												<a href="#" data-group="category-news">Latest news<span class="figure-link">
+														<svg class="fill_pear-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 5" width="100%" height="5px" preserveAspectRatio="none">
+															<polygon points="0,0 100,0 0,5"></polygon>
+														</svg></span><span class="header__nav-expand-icon">
+														<svg class="icon-expand-right">
+															<use xlink:href="sprites/sprite.svg#icon-expand-right"></use>
+														</svg></span></a>
+											</li>
+											<li>
+												<a href="#">Additional pages<span class="figure-link">
+														<svg class="fill_pear-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 5" width="100%" height="5px" preserveAspectRatio="none">
+															<polygon points="0,0 100,0 0,5"></polygon>
+														</svg></span></a>
+											</li>
+											<li>
+												<a href="#">Additional pages<span class="figure-link">
+														<svg class="fill_pear-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 5" width="100%" height="5px" preserveAspectRatio="none">
+															<polygon points="0,0 100,0 0,5"></polygon>
+														</svg></span></a>
+											</li>
+										</ul>
+									</div>
+									<div class="col col-12 col-lg-6 header__nav-submenu" data-filter-group="category-news">
+										<a class="btn is-lg-hidden header__nav-submenu-back">
+											<svg class="icon-arrow_left">
+												<use xlink:href="sprites/sprite.svg#icon-arrow_left"></use>
+											</svg>
+										</a>
+										<ul class="header__nav-submenu-main">
+											<li>
+												<a href="#">Blog 1<span class="figure-link">
+														<svg class="fill_pear-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 5" width="100%" height="5px" preserveAspectRatio="none">
+															<polygon points="0,0 100,0 0,5"></polygon>
+														</svg></span></a>
+											</li>
+											<li>
+												<a href="#">Blog 2<span class="figure-link">
+														<svg class="fill_pear-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 5" width="100%" height="5px" preserveAspectRatio="none">
+															<polygon points="0,0 100,0 0,5"></polygon>
+														</svg></span></a>
+											</li>
+											<li>
+												<a href="#">Blog 3<span class="figure-link">
+														<svg class="fill_pear-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 5" width="100%" height="5px" preserveAspectRatio="none">
+															<polygon points="0,0 100,0 0,5"></polygon>
+														</svg></span></a>
+											</li>
+											<li>
+												<a href="#">Blog 4<span class="figure-link">
+														<svg class="fill_pear-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 5" width="100%" height="5px" preserveAspectRatio="none">
+															<polygon points="0,0 100,0 0,5"></polygon>
+														</svg></span></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-10 col-lg-4 col-xl-3 order-5">
+								<form class="header__search is-lg-visible">
+									<input class="input-search" type="text" placeholder="Search">
+									<svg class="icon-search">
+										<use xlink:href="sprites/sprite.svg#icon-search"></use>
+									</svg>
+								</form>
+								<div class="header__menu-article" data-filter-group="category-news">
+									<div class="heading-h2 heading-h2--mini text-up">Featured</div>
+									<div class="news-block-mini">
+										<div class="news-block-mini__img">
+											<a href="#">
+												<img src="images/field-line_mini.jpg" alt="" srcset="images/field-line_mini@2x.jpg 2x">
+											</a>
+										</div>
+										<div class="news-block-mini__main">
+											<div class="news-block-mini__text">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem </p>
+											</div>
+											<a class="btn btn-more btn-more--mod" href="#">Find out more
+												<div class="btn-more__figure">
+													<svg class="fill_pear-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 4" width="100%" height="4px" preserveAspectRatio="none">
+														<polygon points="0,0 100,0 0,4"></polygon>
+													</svg>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-lg-1 lg-text-right order-2 order-lg-5 header__menu-btns-bar">
+								<a class="btn header__menu-close">
+									<svg class="icon-close">
+										<use xlink:href="sprites/sprite.svg#icon-close"></use>
+									</svg>
+								</a>
+								<a class="btn is-lg-hidden header__menu-btn-search">
+									<svg class="icon-search">
+										<use xlink:href="sprites/sprite.svg#icon-search"></use>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- Header :: End-->
+			<!-- Main :: Start-->
+			<main class="main">
+				<div class="section main-slide">
+					<div class="main-slide__item">
+						<div class="heading-h1">
+							<div class="container">Latest news</div>
+						</div>
+						<div class="main-slide__img">
+							<img class="is-md-visible" src="images/golfer-main_wide.jpg" alt="">
+							<img class="is-md-hidden" src="images/golfer_main-mobile.jpg" alt="">
+						</div>
+						<div class="main-slide__figure">
+							<svg class="fill_white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 58" width="100%" height="58px" preserveAspectRatio="none">
+								<polygon points="0,0 100,0 0,58"></polygon>
+							</svg>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="section blog blog--theme-gray-light2">
+						<div class="container">
+							<div class="blog__img">
+								<a href="#">
+									<img src="images/playing-tennis_wide.jpg" alt="">
+								</a>
+							</div>
+							<div class="heading-h2 heading-h2--medium">
+								<a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur.</a>
+								<div class="heading-h2__figure">
+									<svg class="fill_green-shiny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 12" width="100%" height="12px" preserveAspectRatio="none">
+										<polygon points="0,0 100,0 0,12"></polygon>
+									</svg>
+								</div>
+							</div>
+							<div class="blog__desc">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum vitae est vel semper. In non est nec massa ultricies rutrum quis eu elit. Nullam in placerat odio. Vestibulum dapibus nibh metus, ut elementum libero interdum</p>
+							</div>
+							<div class="blog__details">
+								<div class="blog__details-block">Written by Tim Bleszynski</div>
+								<div class="blog__details-block">Date 11/02/2021</div>
+								<div class="blog__details-block">
+									<div>
+										<a class="btn btn-more" href="#">Continue reading
+											<div class="btn-more__figure">
+												<svg class="fill_green-shiny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 7" width="100%" height="7px" preserveAspectRatio="none">
+													<polygon points="0,0 100,0 0,7"></polygon>
+												</svg>
+											</div>
+										</a>
+									</div>
+									<div>
+										<ul class="list-socials">
+											<li>
+												<a href="#" target="_blank">
+													<svg class="icon-facebook">
+														<use xlink:href="sprites/sprite.svg#icon-facebook"></use>
+													</svg>
+												</a>
+											</li>
+											<li>
+												<a href="#" target="_blank">
+													<svg class="icon-instagram">
+														<use xlink:href="sprites/sprite.svg#icon-instagram"></use>
+													</svg>
+												</a>
+											</li>
+											<li>
+												<a href="#" target="_blank">
+													<svg class="icon-youtube">
+														<use xlink:href="sprites/sprite.svg#icon-youtube"></use>
+													</svg>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="edge-section edge-section--top">
+							<svg class="fill_white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 72" width="100%" height="72px" preserveAspectRatio="none">
+								<polygon points="0,0 100,0 0,72"></polygon>
+							</svg>
+						</div>
+					</div>
+					<div class="section blog blog--theme-yellow-pale">
+						<div class="container">
+							<div class="blog__img">
+								<a href="#">
+									<img src="images/golfer_wide.jpg" alt="">
+								</a>
+							</div>
+							<div class="heading-h2 heading-h2--medium">
+								<a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur.</a>
+								<div class="heading-h2__figure">
+									<svg class="fill_green-shiny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 12" width="100%" height="12px" preserveAspectRatio="none">
+										<polygon points="0,0 100,0 0,12"></polygon>
+									</svg>
+								</div>
+							</div>
+							<div class="blog__desc">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur.</p>
+							</div>
+							<div class="blog__details">
+								<div class="blog__details-block">Written by Tim Bleszynski</div>
+								<div class="blog__details-block">Date 11/02/2021</div>
+								<div class="blog__details-block">
+									<div>
+										<a class="btn btn-more" href="#">Continue reading
+											<div class="btn-more__figure">
+												<svg class="fill_green-shiny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 7" width="100%" height="7px" preserveAspectRatio="none">
+													<polygon points="0,0 100,0 0,7"></polygon>
+												</svg>
+											</div>
+										</a>
+									</div>
+									<div>
+										<ul class="list-socials">
+											<li>
+												<a href="#" target="_blank">
+													<svg class="icon-facebook">
+														<use xlink:href="sprites/sprite.svg#icon-facebook"></use>
+													</svg>
+												</a>
+											</li>
+											<li>
+												<a href="#" target="_blank">
+													<svg class="icon-instagram">
+														<use xlink:href="sprites/sprite.svg#icon-instagram"></use>
+													</svg>
+												</a>
+											</li>
+											<li>
+												<a href="#" target="_blank">
+													<svg class="icon-youtube">
+														<use xlink:href="sprites/sprite.svg#icon-youtube"></use>
+													</svg>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="edge-section edge-section--top">
+							<svg class="fill_gray-light3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 72" width="100%" height="72px" preserveAspectRatio="none">
+								<polygon points="0,0 100,0 0,72"></polygon>
+							</svg>
+						</div>
+					</div>
+					<div class="section blog blog--theme-violet">
+						<div class="container">
+							<div class="blog__img">
+								<a href="#">
+									<img src="images/playing-nature.jpg" alt="">
+								</a>
+							</div>
+							<div class="heading-h2 heading-h2--medium">
+								<a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur.</a>
+								<div class="heading-h2__figure">
+									<svg class="fill_pear-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 12" width="100%" height="12px" preserveAspectRatio="none">
+										<polygon points="0,0 100,0 0,12"></polygon>
+									</svg>
+								</div>
+							</div>
+							<div class="blog__desc">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur.</p>
+							</div>
+							<div class="blog__details">
+								<div class="blog__details-block">Written by Tim Bleszynski</div>
+								<div class="blog__details-block">Date 11/02/2021</div>
+								<div class="blog__details-block">
+									<div>
+										<a class="btn btn-more" href="#">Continue reading<span class="btn-more__figure">
+												<svg class="fill_pear-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 7" width="100%" height="7px" preserveAspectRatio="none">
+													<polygon points="0,0 100,0 0,7"></polygon>
+												</svg></span></a>
+									</div>
+									<div>
+										<ul class="list-socials">
+											<li>
+												<a href="#" target="_blank">
+													<svg class="icon-facebook">
+														<use xlink:href="sprites/sprite.svg#icon-facebook"></use>
+													</svg>
+												</a>
+											</li>
+											<li>
+												<a href="#" target="_blank">
+													<svg class="icon-instagram">
+														<use xlink:href="sprites/sprite.svg#icon-instagram"></use>
+													</svg>
+												</a>
+											</li>
+											<li>
+												<a href="#" target="_blank">
+													<svg class="icon-youtube">
+														<use xlink:href="sprites/sprite.svg#icon-youtube"></use>
+													</svg>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="bg-figure"></div>
+						</div>
+						<div class="edge-section edge-section--top">
+							<svg class="fill_gray-light3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 72" width="100%" height="72px" preserveAspectRatio="none">
+								<polygon points="0,0 100,0 0,72"></polygon>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</main>
+			<!-- Main :: End-->
+			<!-- Footer :: Start-->
+			<footer class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="footer__col col-12 footer__logo is-lg-hidden">
+							<img src="images/logo_white.svg" alt="">
+						</div>
+						<div class="footer__col col-12 col-lg-2">
+							<div class="footer__title">Site map</div>
+							<ul class="footer__menu">
+								<li>
+									<a href="#">What we do</a>
+								</li>
+								<li>
+									<a href="#">Our mission</a>
+								</li>
+								<li>
+									<a href="#">Blog</a>
+								</li>
+								<li>
+									<a href="#">Contact</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__col col-12 col-lg-2">
+							<div class="footer__title">Company info</div>
+							<ul class="footer__menu">
+								<li>
+									<a href="#">Terms &amp; Conditions</a>
+								</li>
+								<li>
+									<a href="#">Careers</a>
+								</li>
+								<li>
+									<a href="#">Modern Slavery Act</a>
+								</li>
+								<li>
+									<a href="#">Sustainability</a>
+								</li>
+								<li>
+									<a href="#">Sustainability</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__col col-12 col-lg-4 footer__main">
+							<div class="footer__logo is-lg-visible">
+								<img src="images/logo_white.svg" alt="">
+							</div>
+							<div class="footer__link">
+								<a href="tel:+4407880545402">+44 (07)880545402</a>
+							</div>
+							<div class="footer__link">
+								<a href="mailto:info@greenfields.com">info@greenfields.com</a>
+							</div>
+						</div>
+						<div class="footer__col col-12 col-lg-4">
+							<div class="footer__title">Crafted by ECOTRIBO LTD</div>
+							<div>Copyright 2021. All Rights Reserved</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- Footer :: End-->
+			<!-- Popups :: Start-->
+			<!-- Popups :: End-->
+		</div>
+		<!-- Scripts :: Start-->
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/plugins.min.js"></script>
+		<script src="js/app.min.js"></script>
+		<!-- Scripts :: End-->
+	</body>
+</html>
